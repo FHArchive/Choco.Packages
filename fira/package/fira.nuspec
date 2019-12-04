@@ -4,7 +4,7 @@
 	<metadata>
 		<id>fira</id>
 		<version>4.202</version>
-		<packageSourceUrl>https://chocolatey.org/packages/fira/</packageSourceUrl>
+		<packageSourceUrl>https://github.com/FredHappyface/Choco.Packages/tree/master/fira</packageSourceUrl>
 		<owners>FredHappyface</owners>
 		<title>Fira</title>
 		<authors>Mozilla</authors>
@@ -19,7 +19,6 @@
 		<projectSourceUrl>https://github.com/mozilla/Fira</projectSourceUrl>
 		<summary>Mozilla's Fira Type Family</summary>
 		<description>
-
 # Mozilla's Fira Type Family
 http://mozilla.github.io/Fira/
 
@@ -51,8 +50,8 @@ https://www.google.com/fonts/specimen/Fira+Sans - Google Fonts.
 https://www.fontsquirrel.com/fonts/fira-sans - Font Squirrel.
 		</description>
 		<dependencies>
-      <dependency id="chocolatey-font-helpers.extension" version="0.0.1" />
-    </dependencies>
+			<dependency id="chocolatey-font-helpers.extension" version="0.0.1" />
+		</dependencies>
 
 	</metadata>
 	<files>
