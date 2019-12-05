@@ -13,7 +13,7 @@
 
 <img src="readme-assets/icons/proj-icon.png" alt="Project Icon" width="100">
 
-A series of packages for the chocolatey package manager
+A series of packages for the Chocolatey package manager
 
 ## Packages
 ### fira
