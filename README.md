@@ -20,8 +20,17 @@ A series of packages for the Chocolatey package manager
 Mozilla's Fira Type Family (uses less data to download and uses the
 chocolatey-font-helpers.extension)
 
-### fira-old
-Mozilla's Fira Type Family (old download handler)
+### firanf
+Mozilla's Fira Type Family as a Nerd Font (reduced number of fonts uses the
+chocolatey-font-helpers.extension)
+
+Fira Sans (8)
+Fira Sans Condensed (8)
+Fira Mono (3)
+
+### firacodenf
+Fira Code as a Nerd Font (uses the
+chocolatey-font-helpers.extension)
 
 ## Changelog
 See the [CHANGELOG](/CHANGELOG.md) for more information.

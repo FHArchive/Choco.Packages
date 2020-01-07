@@ -1,0 +1,68 @@
+============================= Fira Sans NF =============================
+
+Downloads the fira code nf otf as a .zip and installs to system fonts
+courtesy of chocolatey-font-helpers.extension. Follow the step-by-step
+to verify the checksums
+
+Step 1:
+Download the zip file from
+https://github.com/FredHappyface/Choco.Packages/tree/master/firanf/package/tools.firaNF.zip
+
+Step 2:
+Extract the zip file and grab/ copy the otf directory
+
+RouteA or RouteB
+RouteA to verify the individual .otf files, RouteB to verify a zip file
+containing the otf/ directory
+
+RouteA
+Step 3:
+Open a powershell terminal and run
+```powershell
+Get-ChildItem | Get-FileHash | Export-Csv checksum.csv
+```
+
+Step 4:
+Open the csv (many forms of spreadsheet software can help with this. e.g.
+Microsoft Excel, LibreOffice Calc). The SHA256 will match those in the
+Font List below
+
+(Note that I have reordered the columns)
+
+
+RouteB
+Step 3:
+Zip the otf/ directory and run
+```powershell
+Get-FileHash [zip-name]
+```
+
+The SHA256 Hash is AF356333A9F72B4264A100CD010EBC44E9565E3BC05DD763EFA8B7D22E3B31EB
+
+
+------------------------------ Font List ------------------------------
+
+Algorithm	Hash	Font
+SHA256	420E27A4D96BE13A3E4D325AFD76183BA8EAF1E196D58643DC9A6E284E9EEEE7	FiraMono-Bold.otf
+SHA256	6FD25584603ACFB24B4D1ADCEE852784A558A9E83E01389D6F3386FEDF5C9E3A	FiraMono-Medium.otf
+SHA256	3676963FD6724E50A1FB9959434EF882EE80894C3B24F14266DED9E730C24EC2	FiraMono-Regular.otf
+SHA256	77CC9520408D15C88B2C3F87F6A12979A4A32FC2B66B259BDC5B455FAB220098	FiraSans-Bold.otf
+SHA256	F13913B45F6BEDA812E87E0AE49E1303AB04E61D4F1FA8FD6C4BA2AF538F1648	FiraSans-BoldItalic.otf
+SHA256	4457430B707BFA0881A38127FF7BFF1B6BDC84B0D88429EAF12CB108F5AC2C98	FiraSans-Italic.otf
+SHA256	96E6402F766EECB6C6334570BC93F50324A492710BE0202868DC465FD53E70AB	FiraSans-Light.otf
+SHA256	F1784A8A46C5F808ADEB560B52C926367DFD08AA8BDEBAD38F88A7EF366ECB17	FiraSans-LightItalic.otf
+SHA256	C80AEB6E57C7EB42A4122B8363F019EF124524575730B85AACC143D01CE196CB	FiraSans-Medium.otf
+SHA256	DF289A72C725932056CD31EF3C708A07506853ADF457942C43DE86EA5DFF85AA	FiraSans-MediumItalic.otf
+SHA256	AC0BEC07A1689ADE1D83F132057D16ACDD5E51330134F2890122BEB82F887C90	FiraSans-Regular.otf
+SHA256	75149FFD15273D66468D086C9A0AF961C90E3A82D0DB254F405EE93CFAD1226B	FiraSansCondensed-Bold.otf
+SHA256	E6EB6CE3EF953E3EFD8F184F03B9B0019E0C5C9403BFBED4D02B8AC9214DC695	FiraSansCondensed-BoldItalic.otf
+SHA256	0FA58427EC181AD8C0E177300D142C96A88AB2FE78CCCBE95176B21DFAB87084	FiraSansCondensed-Italic.otf
+SHA256	51C29B03825F84A86DEFBA71F06A91CA90A6F177F08BC4003955956AAE17877B	FiraSansCondensed-Light.otf
+SHA256	DA9497E89EDBE631D73C8F164948DD0628FC0817EAAF373BE4E26B517A1B74F0	FiraSansCondensed-LightItalic.otf
+SHA256	986211DE8C952CFC66FAA379D440925D8F3B2C2A5C7A01BCD24133A890F0159F	FiraSansCondensed-Medium.otf
+SHA256	49C8A368FECC2AD0DFD660D923371EECC6BB61B7D985D8015E08D3C0FC225DD6	FiraSansCondensed-MediumItalic.otf
+SHA256	74BDF4ECDC31FF667B39C83938036063D546DC34BF56B72A5EB236A27E1992B1	FiraSansCondensed-Regular.otf
+
+
+
+============================= Fira Sans NF =============================

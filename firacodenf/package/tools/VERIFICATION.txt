@@ -1,0 +1,53 @@
+============================= Fira Code NF =============================
+
+Downloads the fira code nf otf as a .zip and installs to system fonts
+courtesy of chocolatey-font-helpers.extension. Follow the step-by-step
+to verify the checksums
+
+Step 1:
+Download the zip file from
+https://github.com/FredHappyface/Choco.Packages/tree/master/firacodenf/package/tools.firaCodeNF.zip
+
+Step 2:
+Extract the zip file and grab/ copy the otf directory
+
+RouteA or RouteB
+RouteA to verify the individual .otf files, RouteB to verify a zip file
+containing the otf/ directory
+
+RouteA
+Step 3:
+Open a powershell terminal and run
+```powershell
+Get-ChildItem | Get-FileHash | Export-Csv checksum.csv
+```
+
+Step 4:
+Open the csv (many forms of spreadsheet software can help with this. e.g.
+Microsoft Excel, LibreOffice Calc). The SHA256 will match those in the
+Font List below
+
+(Note that I have reordered the columns)
+
+
+RouteB
+Step 3:
+Zip the otf/ directory and run
+```powershell
+Get-FileHash [zip-name]
+```
+
+The SHA256 Hash is E028AAAC4EEB2B80BD5293256B3943FAD64647929A5CB595733D7ED2462EE008
+
+
+------------------------------ Font List ------------------------------
+
+Algorithm	Hash	Font
+SHA256	6A6A829DAEEB0AB216CD89B592825F2E1293F1F274CA9F154BE622248289204A	FiraCode-Bold.otf
+SHA256	D3CFDDF56C54EB45282F36E2E01077A0AF0699AF5578743ABDB91245F25F7CC3	FiraCode-Light.otf
+SHA256	7AA865190D599CED0ED77BF384E67AC75B17D0405680355F0502AC7101A224C8	FiraCode-Medium.otf
+SHA256	E1119A6FD1465C611B887799563A9FC11CE75AC936F71421947C95BCD6190F7B	FiraCode-Regular.otf
+SHA256	A1152AB95933FCB7C42F4A778CB98867983165E4660C911F0F9F83DED9DE09C7	FiraCode-Retina.otf
+
+
+============================= Fira Code NF =============================
