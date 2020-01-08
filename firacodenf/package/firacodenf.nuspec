@@ -14,7 +14,7 @@
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<iconUrl>https://raw.githack.com/FredHappyface/Choco.Packages/master/firacodenf/proj-icon.png</iconUrl>
 		<tags>fira font monospaced font with programming ligatures code</tags>
-		<docsUrl>https://github.com/tonsky/FiraCode/blob/master/Fira_Version_Report.md</docsUrl>
+		<docsUrl>https://github.com/tonsky/FiraCode/blob/master/README.md</docsUrl>
 		<bugTrackerUrl>https://github.com/tonsky/FiraCode/issues</bugTrackerUrl>
 		<projectSourceUrl>https://github.com/tonsky/FiraCode</projectSourceUrl>
 		<summary>Fira Code: monospaced font with programming ligatures</summary>
