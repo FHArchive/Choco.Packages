@@ -12,11 +12,11 @@ $packageArgs = @{
 
 Install-ChocolateyZIPPackage @packageArgs
 
-Install-ChocolateyFont "$toolsDir\otf\FiraCode-Bold.otf"
-Install-ChocolateyFont "$toolsDir\otf\FiraCode-Light.otf"
-Install-ChocolateyFont "$toolsDir\otf\FiraCode-Medium.otf"
-Install-ChocolateyFont "$toolsDir\otf\FiraCode-Regular.otf"
-Install-ChocolateyFont "$toolsDir\otf\FiraCode-Retina.otf"
+Install-ChocolateyFont "$toolsDir\otf\FiraCodeNF-Bold.otf"
+Install-ChocolateyFont "$toolsDir\otf\FiraCodeNF-Light.otf"
+Install-ChocolateyFont "$toolsDir\otf\FiraCodeNF-Medium.otf"
+Install-ChocolateyFont "$toolsDir\otf\FiraCodeNF-Regular.otf"
+Install-ChocolateyFont "$toolsDir\otf\FiraCodeNF-Retina.otf"
 
 
 Remove-Item "$toolsDir\otf" -Recurse -ErrorAction SilentlyContinue | Out-Null
