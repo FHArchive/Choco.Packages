@@ -11,7 +11,7 @@
 
 # Choco.Packages
 
-<img src="readme-assets/icons/proj-icon.png" alt="Project Icon" width="100">
+<img src="readme-assets/icons/name.png" alt="Project Icon" width="750">
 
 A series of packages for the Chocolatey package manager
 
