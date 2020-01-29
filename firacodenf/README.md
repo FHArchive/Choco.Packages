@@ -1,5 +1,6 @@
-## Fira Code: monospaced font with programming ligatures
+## Fira Code: monospaced font with programming ligatures Nerd Font
 
+Nerd Fonts is a project that patches developer targeted fonts with a high number of glyphs (icons). Specifically to add a high number of extra glyphs from popular 'iconic fonts' such as Font Awesome ➶, Devicons ➶, Octicons ➶, and others.
 
 ### Problem
 

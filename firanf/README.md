@@ -1,5 +1,7 @@
 
-# Mozilla's Fira Type Family
+# Mozilla's Fira Type Family Nerd Font
+
+Nerd Fonts is a project that patches developer targeted fonts with a high number of glyphs (icons). Specifically to add a high number of extra glyphs from popular 'iconic fonts' such as Font Awesome ➶, Devicons ➶, Octicons ➶, and others.
 
 <img src="proj-icon.png" alt="Project Icon" width="100">
 
