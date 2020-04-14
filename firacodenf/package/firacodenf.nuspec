@@ -178,7 +178,7 @@ In case you want to alter FiraCode.glyphs and build OTF/TTF/WOFF files yourself,
 - Inspired by: [Hasklig](https://github.com/i-tu/Hasklig)
 		</description>
 		<dependencies>
-			<dependency id="chocolatey-font-helpers.extension" version="0.0.1" />
+			<dependency id="chocolatey-font-helpers.extension" version="0.0.2" />
 		</dependencies>
 
 	</metadata>
