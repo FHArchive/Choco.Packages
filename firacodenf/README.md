@@ -1,28 +1,31 @@
-## Fira Code: monospaced font with programming ligatures Nerd Font
+## Fira Code: free monospaced font with programming ligatures Nerd Font
 
-Nerd Fonts is a project that patches developer targeted fonts with a high number of glyphs (icons). Specifically to add a high number of extra glyphs from popular 'iconic fonts' such as Font Awesome ➶, Devicons ➶, Octicons ➶, and others.
+This is Fira Code with nerd fonts applied to it
+(https://github.com/ryanoasis/nerd-fonts)
+
+Nerd Fonts is a project that patches developer targeted fonts with a high
+number of glyphs (icons). Specifically to add a high number of extra glyphs
+from popular 'iconic fonts' such as Font Awesome ➶, Devicons ➶, Octicons ➶,
+and others.
 
 ### Problem
 
-Programmers use a lot of symbols, often encoded with several characters. For the human brain, sequences like `->`, `<=` or `:=` are single logical tokens, even if they take two or three characters on the screen. Your eye spends a non-zero amount of energy to scan, parse and join multiple characters into a single logical one. Ideally, all programming languages should be designed with full-fledged Unicode symbols for operators, but that’s not the case yet.
+Programmers use a lot of symbols, often encoded with several characters. For
+the human brain, sequences like `->`, `<=` or `:=` are single logical tokens,
+even if they take two or three characters on the screen. Your eye spends a
+non-zero amount of energy to scan, parse and join multiple characters into a
+single logical one. Ideally, all programming languages should be designed with
+full-fledged Unicode symbols for operators, but that’s not the case yet.
 
 ### Solution
 
-#### [Download v.2](https://github.com/tonsky/FiraCode/releases/download/2/FiraCode_2.zip) · [How to install](https://github.com/tonsky/FiraCode/wiki) · [Troubleshooting](https://github.com/tonsky/FiraCode/wiki#troubleshooting) · [News & updates](https://twitter.com/FiraCode)
+Fira Code is a free monospaced font containing ligatures for common programming
+multi-character combinations. This is just a font rendering feature: underlying
+code remains ASCII-compatible. This helps to read and understand code faster.
+For some frequent sequences like `..` or `//`, ligatures allow us to correct
+spacing.
 
-
-Fira Code is an extension of the Fira Mono font containing a set of ligatures for common programming multi-character combinations. This is just a font rendering feature: underlying code remains ASCII-compatible. This helps to read and understand code faster. For some frequent sequences like `..` or `//`, ligatures allow us to correct spacing.
-
-
-### Code examples
-
-### Stylistic sets
-
-See [How to enable](https://github.com/tonsky/FiraCode/wiki/How-to-enable-stylistic-sets)
-
-
-
-### Terminal support
+### Terminal compatibility list
 
 | Works              | Doesn’t work       |
 | ------------------ | ------------------ |
@@ -41,7 +44,7 @@ See [How to enable](https://github.com/tonsky/FiraCode/wiki/How-to-enable-stylis
 | **Windows Terminal** |
 | **ZOC** (macOS)    |
 
-### Editor support
+### Editor compatibility list
 
 | Works | Doesn’t work   |
 | ----- | -------------- |
@@ -54,9 +57,9 @@ See [How to enable](https://github.com/tonsky/FiraCode/wiki/How-to-enable-stylis
 | **Brackets** (with [this plugin](https://github.com/polo2ro/firacode-in-brackets)) | **gVim** (Windows [workaround](https://github.com/tonsky/FiraCode/issues/462)) |
 | **Chocolat** | **IDLE** |
 | **CLion** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | **KDevelop 4** |
-| **Cloud9** ([instructions](https://github.com/tonsky/FiraCode/wiki/Cloud9-Instructions)) | **Monkey Studio IDE** |
-| **Coda 2** |  |
-| **CodeLite** |  |
+| **Cloud9** ([instructions](https://github.com/tonsky/FiraCode/wiki/Cloud9-Instructions)) | **MATLAB** |
+| **Coda 2** | **Monkey Studio IDE** |
+| **CodeLite** | **UltraEdit** |
 | **Eclipse** (macOS 4.7+, Linux) |  |
 | **elementary Code** |  |
 | **Geany** (macOS) |
@@ -102,35 +105,6 @@ See [How to enable](https://github.com/tonsky/FiraCode/wiki/How-to-enable-stylis
 | **Xcode** (8.0+, otherwise [with plugin](https://github.com/robertvojta/LigatureXcodePlugin)) |
 | Probably work: **Smultron, Vico** | Under question: **Code::Blocks IDE** |
 
-### Browser support
-
-```html
-<!-- HTML -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.207/distr/fira_code.css">
-```
-
-```css
-/* CSS */
-@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.207/distr/fira_code.css);
-```
-
-```css
-/* Specify in CSS */
-code { font-family: 'Fira Code', monospace; }
-
-@supports (font-variation-settings: normal) {
-  code { font-family: 'Fira Code VF', monospace; }
-}
-```
-
-
-- IE 10+, Edge: enable with `font-feature-settings: "calt";`
-- Firefox
-- Safari
-- Chromium-based browsers (Chrome, Opera)
-- ACE
-- CodeMirror (enable with `font-variant-ligatures: contextual;`)
-
 ### Projects using Fira Code
 
 - All [JetBrains products](https://www.jetbrains.com/)
@@ -145,16 +119,21 @@ code { font-family: 'Fira Code', monospace; }
 
 ### Alternatives
 
-Other monospaced fonts with ligatures:
+Other free monospaced fonts with ligatures:
 
-- [Hasklig](https://github.com/i-tu/Hasklig) (free)
-- [PragmataPro](http://www.fsd.it/fonts/pragmatapro.htm) (€59)
-- [Monoid](http://larsenwork.com/monoid/) (free)
-- [Fixedsys Excelsior](https://github.com/kika/fixedsys) (free)
-- [Iosevka](https://be5invis.github.io/Iosevka/) (free)
-- [DejaVu Sans Code](https://github.com/SSNikolaevich/DejaVuSansCode) (free)
-- [Victor Mono](https://rubjo.github.io/victor-mono/) (free)
-- [Cascadia Code](https://github.com/microsoft/cascadia-code) (free)
+- [Hasklig](https://github.com/i-tu/Hasklig)
+- [Monoid](http://larsenwork.com/monoid/)
+- [Fixedsys Excelsior](https://github.com/kika/fixedsys)
+- [Iosevka](https://be5invis.github.io/Iosevka/)
+- [DejaVu Sans Code](https://github.com/SSNikolaevich/DejaVuSansCode)
+- [Victor Mono](https://rubjo.github.io/victor-mono/)
+- [Cascadia Code](https://github.com/microsoft/cascadia-code)
+- [JetBrains Mono](https://github.com/JetBrains/JetBrainsMono)
+
+Paid monospaced fonts with ligatures:
+
+- [PragmataPro](http://www.fsd.it/fonts/pragmatapro.htm)
+- [Mono Lisa](https://monolisa.dev/)
 
 ### Building Fira Code locally
 

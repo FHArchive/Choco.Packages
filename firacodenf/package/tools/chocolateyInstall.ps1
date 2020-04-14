@@ -17,7 +17,7 @@ Install-ChocolateyFont "$toolsDir\otf\FiraCodeNF-Light.otf"
 Install-ChocolateyFont "$toolsDir\otf\FiraCodeNF-Medium.otf"
 Install-ChocolateyFont "$toolsDir\otf\FiraCodeNF-Regular.otf"
 Install-ChocolateyFont "$toolsDir\otf\FiraCodeNF-Retina.otf"
-
+Install-ChocolateyFont "$toolsDir\otf\FiraCodeNF-SemiBold.otf"
 
 Remove-Item "$toolsDir\otf" -Recurse -ErrorAction SilentlyContinue | Out-Null
 Remove-Item "$toolsDir\*.zip" -ErrorAction SilentlyContinue | Out-Null
