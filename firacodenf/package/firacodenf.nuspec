@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
 	<metadata>
 		<id>firacodenf</id>
-		<version>3.1.0</version>
+		<version>4.0.0</version>
 		<packageSourceUrl>https://github.com/FredHappyface/Choco.Packages/tree/master/firacodenf</packageSourceUrl>
 		<owners>FredHappyface</owners>
 		<title>Fira Code NF</title>
