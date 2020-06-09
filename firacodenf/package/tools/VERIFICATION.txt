@@ -1,6 +1,6 @@
 ============================= Fira Code NF =============================
 
-Downloads the fira code nf otf as a .zip and installs to system fonts
+Downloads the fira code nf ttf as a .zip and installs to system fonts
 courtesy of chocolatey-font-helpers.extension. Follow the step-by-step
 to verify the checksums
 
@@ -9,11 +9,11 @@ Download the zip file from
 https://github.com/FredHappyface/Choco.Packages/tree/master/firacodenf/package/tools.firaCodeNF.zip
 
 Step 2:
-Extract the zip file and grab/ copy the otf directory
+Extract the zip file and grab/ copy the ttf directory
 
 RouteA or RouteB
-RouteA to verify the individual .otf files, RouteB to verify a zip file
-containing the otf/ directory
+RouteA to verify the individual .ttf files, RouteB to verify a zip file
+containing the ttf/ directory
 
 RouteA
 Step 3:
@@ -32,22 +32,22 @@ Font List below
 
 RouteB
 Step 3:
-Zip the otf/ directory and run
+Zip the ttf/ directory and run
 ```powershell
 Get-FileHash [zip-name]
 ```
 
-The SHA256 Hash is 16204349271A4B092A8BEF2706644013FBF10BEC140A34EB669A1E791E17EFFA
+The SHA256 Hash is 27C5434762B9711253DA8BCF799BDA2CE2383E8506F3D217F522F22EE7E7065C
 
 
 ------------------------------ Font List ------------------------------
 
 Algorithm	Hash	Font
-SHA256	D0155247096C42C0EDE0488B0BD1D2E7A6AC8CFC9B9BA16939D806540B044E20 	FiraCodeNF-Bold.otf
-SHA256	70F9EC56498B7748F90AE10934501A08712C3814738CDCF5B5DD2B2C48771F04 	FiraCodeNF-Light.otf
-SHA256	9089A69E339A4FB5536B21BB0CA7832F8FA77BC574CA500CCBE38980C96AADAF 	FiraCodeNF-Medium.otf
-SHA256	63C7A253BA53580871934E9687418C39D04F5AD0A34E4C049B9A8496B0C92ECA 	FiraCodeNF-Regular.otf
-SHA256	07B83FE16E7456D9418E93D9D736ACE96991AA9820D1B6485A3F5F99AAEDACC0 	FiraCodeNF-Retina.otf
-SHA256	2035D28175B3D91998C1945614E33FEB82938ABEC18409A40C3C04FCBED9F476 	FiraCodeNF-SemiBold.otf
+SHA256	C7489630CE981732133A6A91EE91A06124E126B637675DFEB5A2B7F1F33D5425 	FiraCodeNF-Bold.ttf
+SHA256	8ABDB3C25A09891B59F2C4C404F88A62D924E12D9DC1862829BC93481246CAA9 	FiraCodeNF-Light.ttf
+SHA256	C67BEA0B7CB02D29048704C25D9C7DFB476BAC6574FA4FC3AFF427543DD0B6BC 	FiraCodeNF-Medium.ttf
+SHA256	6CC92BA7A39D1F4C6548DBEC257AFDB095834C734BD11972C68213D4481D80E9 	FiraCodeNF-Regular.ttf
+SHA256	6A2BF00D6755D6DF17774982BADC89D8F61A97EC5014A04A63C4FA208DCF813E 	FiraCodeNF-Retina.ttf
+SHA256	E5BE329B027A91BA34CC6DF94567A589D28709A51E3BD7A2A4311E0ED92FF97C 	FiraCodeNF-SemiBold.ttf
 
 ============================= Fira Code NF =============================
