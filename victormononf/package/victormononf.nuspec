@@ -7,9 +7,9 @@
 		<packageSourceUrl>https://github.com/FredHappyface/Choco.Packages/tree/master/victormononf</packageSourceUrl>
 		<owners>FredHappyface</owners>
 		<title>VictorMonoNF</title>
-		<authors>[unknown author] ryanoasis</authors>
+		<authors>rubjo ryanoasis</authors>
 		<projectUrl>https://github.com/ryanoasis/nerd-fonts/tree/ac5a5f0b591170dbecfcd503aa22a564cd88be1d/patched-fonts/VictorMono</projectUrl>
-		<copyright>[unknown author]</copyright>
+		<copyright>rubjo</copyright>
 		<licenseUrl>https://github.com/ryanoasis/nerd-fonts/tree/ac5a5f0b591170dbecfcd503aa22a564cd88be1d/src/unpatched-fonts/VictorMono/LICENSE</licenseUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<iconUrl>https://raw.githack.com/FredHappyface/Choco.Packages/master/victormononf/proj-icon.png</iconUrl>
