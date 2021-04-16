@@ -6,7 +6,11 @@ to verify the checksums
 
 Step 1:
 Download the zip file from
-https://github.com/FredHappyface/Choco.Packages/tree/master/victormononf/package/tools.victorMonoNF.zip
+https://github.com/FredHappyface/Choco.Packages/tree/master/victormononf/package/tools/victorMonoNF.zip
+
+Alternatively source the fonts from
+https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/VictorMono
+and compile the zip file using each "Nerd Font Complete Windows Compatible.ttf"
 
 Step 2:
 Extract the zip file and grab/ copy the otf directory

@@ -1,16 +1,8 @@
 $ErrorActionPreference = 'Stop'
-$packageName = 'victormononf'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url = "$toolsDir\victorMonoNF.zip"
 
-$packageArgs = @{
-	packageName   = $packageName
-	unzipLocation = $toolsDir
-	fileType      = 'ZIP'
-	url           = $url
-}
-
-Install-ChocolateyZIPPackage @packageArgs
+Get-ChocolateyUnzip -FileFullPath $url -Destination $toolsDir
 
 Install-ChocolateyFont "$toolsDir\otf\VictorMonoNF-Bold.ttf"
 Install-ChocolateyFont "$toolsDir\otf\VictorMonoNF-Bold-Italic.ttf"
