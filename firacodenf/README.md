@@ -1,71 +1,111 @@
-## Fira Code: free monospaced font with programming ligatures Nerd Font
+# FiraCodeNF
 
-This is Fira Code with nerd fonts applied to it
-(https://github.com/ryanoasis/nerd-fonts)
+Nerd Fonts patches developer targeted fonts with a high number of glyphs
+(icons). Specifically to add a high number of extra glyphs from popular
+'iconic fonts' such as
+[Font Awesome](https://github.com/FortAwesome/Font-Awesome),
+[Devicons](https://vorillaz.github.io/devicons/),
+[Octicons](https://github.com/primer/octicons), and
+[others](https://github.com/ryanoasis/nerd-fonts#glyph-sets).
 
-Nerd Fonts is a project that patches developer targeted fonts with a high
-number of glyphs (icons). Specifically to add a high number of extra glyphs
-from popular 'iconic fonts' such as Font Awesome ➶, Devicons ➶, Octicons ➶,
-and others.
+## Fira Code: free monospaced font with programming ligatures
+
+![Fira Code](./extras/logo.svg)
 
 ### Problem
 
-Programmers use a lot of symbols, often encoded with several characters. For
-the human brain, sequences like `->`, `<=` or `:=` are single logical tokens,
-even if they take two or three characters on the screen. Your eye spends a
-non-zero amount of energy to scan, parse and join multiple characters into a
-single logical one. Ideally, all programming languages should be designed with
-full-fledged Unicode symbols for operators, but that’s not the case yet.
+Programmers use a lot of symbols, often encoded with several characters. For the human brain, sequences like `->`, `<=` or `:=` are single logical tokens, even if they take two or three characters on the screen. Your eye spends a non-zero amount of energy to scan, parse and join multiple characters into a single logical one. Ideally, all programming languages should be designed with full-fledged Unicode symbols for operators, but that’s not the case yet.
 
 ### Solution
 
-Fira Code is a free monospaced font containing ligatures for common programming
-multi-character combinations. This is just a font rendering feature: underlying
-code remains ASCII-compatible. This helps to read and understand code faster.
-For some frequent sequences like `..` or `//`, ligatures allow us to correct
-spacing.
+Fira Code is a free monospaced font containing ligatures for common programming multi-character combinations. This is just a font rendering feature: underlying code remains ASCII-compatible. This helps to read and understand code faster. For some frequent sequences like `..` or `//`, ligatures allow us to correct spacing.
 
-### Terminal compatibility list
+### Download & Install
 
-| Works              | Doesn’t work       |
-| ------------------ | ------------------ |
-| **Butterfly**      | **Alacritty**      |
-| **crosh** (ChromeOS, [instructions](https://github.com/tonsky/FiraCode/wiki/ChromeOS-Terminal)) | **Windows Console (conhost.exe)** |
-| **Hyper.app**      | **Cmder**          |
-| **iTerm 2** ([3.1+](https://gitlab.com/gnachman/iterm2/issues/3568#note_13118332)) | **ConEmu** |
-| **Kitty**          | **GNOME Terminal** |
-| **Konsole**        | **mate-terminal**  |
-| **mintty** (partial support [2.8.3+](https://github.com/mintty/mintty/issues/601))| **PuTTY** |
-| **QTerminal**      | **rxvt**           |
-| **Terminal.app**   | **xterm**          |
-| **Termux**         | **ZOC** (Windows)  |
-| **Token2Shell/MD** | **gtkterm, guake, LXTerminal, sakura, Terminator, xfce4-terminal,** and other libvte-based terminals ([bug report](https://bugzilla.gnome.org/show_bug.cgi?id=584160)) |
-| **upterm**         |
-| **Windows Terminal** |
-| **ZOC** (macOS)    |
+<a href="https://github.com/tonsky/FiraCode/releases/download/6.2/Fira_Code_v6.2.zip"><img alt="Fira_Code_v6.2.zip - December 6, 2021 - 2.5 MB" src="./extras/download.png" width="520" height="130"></a>
+
+Then:
+
+- [How to Install](https://github.com/tonsky/FiraCode/wiki)
+- [Troubleshooting](https://github.com/tonsky/FiraCode/wiki#troubleshooting)
+- [News & Updates](https://twitter.com/FiraCode)
+
+### Support
+
+<a href="https://github.com/sponsors/tonsky" target="_blank"><img alt="Sponsor" src="./extras/sponsor.png"></a>
+
+Fira Code is a personal, free-time project with no funding and a huge [feature request backlog](https://github.com/tonsky/FiraCode/issues). If you love it, consider supporting its development via [GitHub Sponsors](https://github.com/sponsors/tonsky) or [Patreon](https://patreon.com/tonsky). Any help counts!
+
+### What’s in the box?
+
+Left: ligatures as rendered in Fira Code. Right: same character sequences without ligatures.
+
+<img src="./extras/ligatures.png" width="754" height="1326">
+
+Fira Code comes with a huge variety of arrows. Even better: you can make them as long as you like and combine start/middle/end fragments however you want!
+
+<img src="./extras/arrows.png" width="754" height="799">
+
+Fira Code is not only about ligatures. Some fine-tuning is done for punctuation and frequent letter pairs.
+
+<img src="./extras/typographics.png" width="754" height="649">
+
+Fira Code comes with a few different character variants, so that everyone can choose what’s best for them. [How to enable](https://github.com/tonsky/FiraCode/wiki/How-to-enable-stylistic-sets)
+
+<img src="./extras/character_variants.png" width="754" height="391">
+
+Some ligatures can be altered or enabled using stylistic sets/character variants:
+
+<img src="./extras/ligature_variants.png" width="754" height="561">
+
+Being a programming font, Fira Code has fantastic support for ASCII/box drawing, powerline and other forms of console UIs:
+
+<img src="./extras/console.png" width="754" height="459">
+
+Fira Code is the first programming font to offer dedicated glyphs to render progress bars:
+
+<img src="./extras/progress.png" width="754" height="282">
+
+In action:
+
+<img src="./extras/progress.gif" width="560" height="181">
+
+We hope more programming fonts will adopt this convention and ship their own versions.
+
+Unicode coverage makes Fira Code a great choice for mathematical writing:
+
+<img src="./extras/math.png" width="754" height="323">
+
+### How does it look?
+
+<img src="./extras/samples.png" width="754" height="1068">
+<img src="./extras/samples2.png" width="754" height="1257">
 
 ### Editor compatibility list
 
 | Works | Doesn’t work   |
-| ----- | -------------- |
+|-------|----------------|
 | **Abricotine** | **Arduino IDE** |
 | **Android Studio** (2.3+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | **Adobe Dreamweaver** |
 | **Anjuta** (unless at the EOF) | **Delphi IDE** |
-| **AppCode** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | **Eclipse** (Windows, [vote here](https://bugs.eclipse.org/bugs/show_bug.cgi?id=398656)) |
-| **Atom** 1.1 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/Atom-instructions)) | Standalone **Emacs** ([workaround](https://github.com/tonsky/FiraCode/wiki/Emacs-instructions)) |
-| **BBEdit/TextWrangler** (v. 11 only, [instructions](https://github.com/tonsky/FiraCode/wiki/BBEdit-instructions)) | **Geany** (Windows) |
-| **Brackets** (with [this plugin](https://github.com/polo2ro/firacode-in-brackets)) | **gVim** (Windows [workaround](https://github.com/tonsky/FiraCode/issues/462)) |
-| **Chocolat** | **IDLE** |
-| **CLion** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | **KDevelop 4** |
-| **Cloud9** ([instructions](https://github.com/tonsky/FiraCode/wiki/Cloud9-Instructions)) | **MATLAB** |
-| **Coda 2** | **Monkey Studio IDE** |
-| **CodeLite** | **UltraEdit** |
-| **Eclipse** (macOS 4.7+, Linux) |  |
-| **elementary Code** |  |
-| **Geany** (macOS) |
+| **AppCode** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | Standalone **Emacs** ([workaround](https://github.com/tonsky/FiraCode/wiki/Emacs-instructions)) |
+| **Atom** 1.1 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/Atom-instructions)) | **Godot** ([issue](https://github.com/godotengine/godot/issues/9961)) |
+| **BBEdit/TextWrangler** (v. 11 only, [instructions](https://github.com/tonsky/FiraCode/wiki/BBEdit-instructions)) | **IDLE** |
+| **Brackets** (with [this plugin](https://github.com/polo2ro/firacode-in-brackets)) | **KDevelop 4** |
+| **Chocolat** | **Monkey Studio IDE** |
+| **CLion** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | **UltraEdit** |
+| **Cloud9** ([instructions](https://github.com/tonsky/FiraCode/wiki/Cloud9-Instructions)) | 
+| **Coda 2** |
+| **CodeLite** |
+| **CodeRunner** |
+| **CotEditor** |
+| **Eclipse** |
+| **elementary Code** |
+| **Geany** (1.37+) |
 | **gEdit / Pluma** |
 | **GNOME Builder** |
 | **GoormIDE** ([instructions](https://github.com/tonsky/FiraCode/wiki/GoormIDE-Instructions)) |
+| **gVim** ([Windows](https://github.com/tonsky/FiraCode/issues/462), [GTK](https://vimhelp.org/options.txt.html#%27guiligatures%27)) |
 | **IntelliJ IDEA** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
 | **Kate, KWrite** |
 | **KDevelop 5+** |
@@ -76,6 +116,7 @@ spacing.
 | **LINQPad** |
 | **MacVim** 7.4 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/MacVim-instructions)) |
 | **Mancy** |
+| **MATLAB** ([instructions](https://github.com/tonsky/FiraCode/wiki/MATLAB-for-Windows-Instructions)) |
 | **Meld** |
 | **Mousepad** |
 | **NeoVim-gtk** |
@@ -83,8 +124,10 @@ spacing.
 | **Notepad** (Windows) |
 | **Notepad++** (with a [workaround](https://github.com/notepad-plus-plus/notepad-plus-plus/issues/2287#issuecomment-256638098))  |
 | **Notepad3** ([instructions](https://github.com/rizonesoft/Notepad3/issues/361#issuecomment-365977420))|
+| **Nova** |
 | **PhpStorm** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
 | **PyCharm** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
+| **QOwnNotes** (21.16.6+) |
 | **QtCreator** |
 | **Rider** |
 | **RStudio** ([instructions](https://github.com/tonsky/FiraCode/wiki/RStudio-instructions)) |
@@ -103,11 +146,48 @@ spacing.
 | **WebStorm** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
 | **Xamarin Studio/Monodevelop** |
 | **Xcode** (8.0+, otherwise [with plugin](https://github.com/robertvojta/LigatureXcodePlugin)) |
+| **Xi** |
 | Probably work: **Smultron, Vico** | Under question: **Code::Blocks IDE** |
+
+### Terminal compatibility list
+
+| Platform       | Works | Doesn’t work |
+|----------------|-------|--------------|
+| macOS          | Hyper (see [#3607](https://github.com/vercel/hyper/issues/3607))<br>iTerm 2<br>Kitty<br>Terminal.app<br>ZOC | Alacritty |
+| Windows        | Hyper (see [#3607](https://github.com/vercel/hyper/issues/3607))<br>Mintty<br>Token2Shell<br>Windows Terminal | Alacritty<br>Cmder<br>ConEmu<br>PuTTY<br>Windows Console<br>ZOC |
+| Linux          | Hyper (see [#3607](https://github.com/vercel/hyper/issues/3607))<br>Kitty<br>Konsole<br>QTerminal<br>Termux<br>st ([patch](https://st.suckless.org/patches/ligatures/)) | Alacritty<br>GNOME Terminal<br>libvte-based terminals ([bug report](https://bugzilla.gnome.org/show_bug.cgi?id=584160)): <ul><li>gtkterm<li>guake<li>LXTerminal<li> sakura<li>Terminator<li>xfce4-terminal</ul>mate-terminal<br>rxvt<br>terminology<br>xterm
+| ChromeOS       | crosh ([instructions](https://github.com/tonsky/FiraCode/wiki/ChromeOS-Terminal)) | |
+
+### Browser support
+
+```html
+<!-- HTML -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css">
+```
+
+```css
+/* CSS */
+@import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
+```
+
+```css
+/* Specify in CSS */
+code { font-family: 'Fira Code', monospace; }
+
+@supports (font-variation-settings: normal) {
+  code { font-family: 'Fira Code VF', monospace; }
+}
+```
+
+- IE 10+, Edge Legacy: enable with `font-feature-settings: "calt";`
+- Firefox
+- Safari
+- Chromium-based browsers (Chrome, Opera)
+- ACE
+- CodeMirror (enable with `font-variant-ligatures: contextual;`)
 
 ### Projects using Fira Code
 
-- All [JetBrains products](https://www.jetbrains.com/)
 - [CodePen](https://codepen.io/)
 - [Blink Shell](http://www.blink.sh/)
 - [Klipse](http://app.klipse.tech/)
@@ -119,7 +199,7 @@ spacing.
 
 ### Alternatives
 
-Other free monospaced fonts with ligatures:
+Free monospaced fonts with ligatures:
 
 - [Hasklig](https://github.com/i-tu/Hasklig)
 - [Monoid](http://larsenwork.com/monoid/)
@@ -133,21 +213,31 @@ Other free monospaced fonts with ligatures:
 Paid monospaced fonts with ligatures:
 
 - [PragmataPro](http://www.fsd.it/fonts/pragmatapro.htm)
-- [Mono Lisa](https://monolisa.dev/)
+- [Mono Lisa](https://www.monolisa.dev/)
 
 ### Building Fira Code locally
 
-In case you want to alter FiraCode.glyphs and build OTF/TTF/WOFF files yourself, this is setup I use on macOS:
+In case you want to alter FiraCode.glyphs and build OTF/TTF/WOFF files yourself, this is the setup I use on macOS:
 
 ```bash
 # install all required build tools
-./script/bootstrap
+./script/bootstrap_macos.sh
 
 # build the font files
-./script/build
+./script/build.sh
 
 # install OTFs to ~/Library/Fonts
-./script/install
+cp distr/otf/*.otf ~/Library/Fonts
+```
+
+Alternatively, you can build Fira Code using Docker:
+
+```bash
+# install dependencies in a container and build the font files
+make
+
+# package the font files from dist/ into a zip
+make package
 ```
 
 ### Credits
@@ -155,3 +245,57 @@ In case you want to alter FiraCode.glyphs and build OTF/TTF/WOFF files yourself,
 - Author: Nikita Prokopov [@nikitonsky](https://twitter.com/nikitonsky)
 - Based on: [Fira Mono](https://github.com/mozilla/Fira)
 - Inspired by: [Hasklig](https://github.com/i-tu/Hasklig)
+
+## Which font?
+
+### TL;DR
+
+* Pick your font family and then select from the `'complete'` directory.
+  * If you are on Windows pick a font with the `'Windows Compatible'` suffix.
+    * This includes specific tweaks to ensure the font works on Windows, in particular monospace identification and font name length limitations
+  * If you are limited to monospaced fonts (because of your terminal, etc) then pick a font with the `'Mono'` suffix.
+    * This denotes that the Nerd Font glyphs will be monospaced not necessarily that the entire font will be monospaced
+
+### Ligatures
+
+By the *Nerd Font* policy, the variant with the `'Mono'` suffix is not supposed to have any ligatures.
+Use the non-*Mono* variants to have ligatures.
+
+### Explanation
+
+Once you narrow down your font choice of family (`Droid Sans`, `Inconsolata`, etc) and style (`bold`, `italic`, etc) you have 2 main choices:
+
+#### `Option 1: Download already patched font`
+
+ * download an already patched font from the `complete` folder
+   * This is most likely the one you want. It includes **all** of the glyphs from all of the glyph sets. Only caution here is that some fonts have glyphs in the _same_ code point so to include everything some had to be moved to alternate code points.
+
+#### `Option 2: Patch your own font`
+
+ * patch your own variations with the various options provided by the font patcher (see each font's readme for full list of combinations available)
+   * This is the option you want if the font you use is _not_ already included or you want maximum control of what's included
+   * This contains a list of _all permutations_ of the various glyphs. E.g. You want the font with only [Octicons][octicons] or you want the font with just [Font Awesome][font-awesome] and [Devicons][vorillaz-devicons]. The goal is to provide every combination possible in this folder.
+
+
+For more information see: [The FAQ](https://github.com/ryanoasis/nerd-fonts/wiki/FAQ-and-Troubleshooting#which-font)
+
+
+[vim-devicons]:https://github.com/ryanoasis/vim-devicons
+[vorillaz-devicons]:https://vorillaz.github.io/devicons/
+[font-awesome]:https://github.com/FortAwesome/Font-Awesome
+[octicons]:https://github.com/primer/octicons
+[gabrielelana-pomicons]:https://github.com/gabrielelana/pomicons
+[Seti-UI]:https://atom.io/themes/seti-ui
+[ryanoasis-powerline-extra-symbols]:https://github.com/ryanoasis/powerline-extra-symbols
+[SIL-RFN]:http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web_fonts_and_RFNs#14cbfd4a
+
+
+## Variations (Combinations)
+
+> The combinations and total number of combinations are provided here for reference if you want to create your own variation of a patched Nerd Font.
+
+### Why aren't all variations included ?
+
+Combinations are no longer included by default because of the large inflation in size it caused the Repository _and_ the amount of time it takes to rebuild all of the combinations. This issue would exponentially get worse as the numbers of Fonts and Glyph Sets provided increase.
+
+

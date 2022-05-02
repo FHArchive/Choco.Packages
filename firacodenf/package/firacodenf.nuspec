@@ -1,106 +1,93 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
 	<metadata>
 		<id>firacodenf</id>
-		<version>5.0.0</version>
+		<version>6.002</version>
 		<packageSourceUrl>https://github.com/FredHappyface/Choco.Packages/tree/master/firacodenf</packageSourceUrl>
 		<owners>FredHappyface</owners>
-		<title>Fira Code NF</title>
-		<authors>Mozilla tonsky ryanoasis</authors>
-		<projectUrl>https://github.com/tonsky/FiraCode</projectUrl>
-		<copyright>Copyright (c) 2014, The Fira Code Project Authors</copyright>
-		<licenseUrl>https://raw.githubusercontent.com/tonsky/FiraCode/master/LICENSE</licenseUrl>
+		<title>FiraCodeNF</title>
+		<authors>The Fira Code Project Authors (https://github.com/tonsky/FiraCode) ryanoasis</authors>
+		<projectUrl>https://github.com/ryanoasis/nerd-fonts/tree/fef67f39a69314637ae0923dfdd94b3bb0638bd8/patched-fonts/FiraCode</projectUrl>
+		<copyright>The Fira Code Project Authors (https://github.com/tonsky/FiraCode)</copyright>
+		<licenseUrl>https://github.com/ryanoasis/nerd-fonts/tree/fef67f39a69314637ae0923dfdd94b3bb0638bd8/src/unpatched-fonts/FiraCode/LICENSE</licenseUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<iconUrl>https://raw.githack.com/FredHappyface/Choco.Packages/master/firacodenf/proj-icon.png</iconUrl>
-		<tags>fira font monospaced font with programming ligatures code</tags>
-		<docsUrl>https://github.com/tonsky/FiraCode/blob/master/README.md</docsUrl>
+		<tags>nerd font programming powerline octicons awesome firacodenf</tags>
+		<docsUrl>https://github.com/ryanoasis/nerd-fonts/tree/fef67f39a69314637ae0923dfdd94b3bb0638bd8/patched-fonts/FiraCode/readme.md</docsUrl>
 		<bugTrackerUrl>https://github.com/tonsky/FiraCode/issues</bugTrackerUrl>
-		<projectSourceUrl>https://github.com/tonsky/FiraCode</projectSourceUrl>
-		<summary>Fira Code: monospaced font with programming ligatures</summary>
+		<projectSourceUrl>https://github.com/ryanoasis/nerd-fonts/tree/fef67f39a69314637ae0923dfdd94b3bb0638bd8/patched-fonts/FiraCode</projectSourceUrl>
+		<summary># FiraCodeNF
+
+Nerd Fonts patches developer targeted fonts with a high number of glyphs
+(icons). Specifically to add a high number of extra glyphs from popular
+&#x27;iconic fonts&#x27; such as
+[Font Awesome](https://github.com/FortAwesome/Font-Awesome),
+[Devicons](https://vorillaz.github.io/devicons/),
+[Octicons](https://github.com/primer/octicons), and
+[others](https://github.com/ryanoasis/nerd-fonts#glyph-sets).</summary>
 		<description>
-## Fira Code: free monospaced font with programming ligatures Nerd Font
+# FiraCodeNF
 
-This is Fira Code with nerd fonts applied to it
-(https://github.com/ryanoasis/nerd-fonts)
+Nerd Fonts patches developer targeted fonts with a high number of glyphs
+(icons). Specifically to add a high number of extra glyphs from popular
+&#x27;iconic fonts&#x27; such as
+[Font Awesome](https://github.com/FortAwesome/Font-Awesome),
+[Devicons](https://vorillaz.github.io/devicons/),
+[Octicons](https://github.com/primer/octicons), and
+[others](https://github.com/ryanoasis/nerd-fonts#glyph-sets).
 
-Nerd Fonts is a project that patches developer targeted fonts with a high
-number of glyphs (icons). Specifically to add a high number of extra glyphs
-from popular 'iconic fonts' such as Font Awesome ➶, Devicons ➶, Octicons ➶,
-and others.
+## Fira Code: free monospaced font with programming ligatures
+
+![Fira Code](./extras/logo.svg)
 
 ### Problem
 
-Programmers use a lot of symbols, often encoded with several characters. For
-the human brain, sequences like `->` or `:=` are single logical tokens,
-even if they take two or three characters on the screen. Your eye spends a
-non-zero amount of energy to scan, parse and join multiple characters into a
-single logical one. Ideally, all programming languages should be designed with
-full-fledged Unicode symbols for operators, but that’s not the case yet.
+Programmers use a lot of symbols, often encoded with several characters. For the human brain, sequences like `-&gt;`, `&lt;=` or `:=` are single logical tokens, even if they take two or three characters on the screen. Your eye spends a non-zero amount of energy to scan, parse and join multiple characters into a single logical one. Ideally, all programming languages should be designed with full-fledged Unicode symbols for operators, but that’s not the case yet.
 
 ### Solution
 
-Fira Code is a free monospaced font containing ligatures for common programming
-multi-character combinations. This is just a font rendering feature: underlying
-code remains ASCII-compatible. This helps to read and understand code faster.
-For some frequent sequences like `..` or `//`, ligatures allow us to correct
-spacing.
+Fira Code is a free monospaced font containing ligatures for common programming multi-character combinations. This is just a font rendering feature: underlying code remains ASCII-compatible. This helps to read and understand code faster. For some frequent sequences like `..` or `//`, ligatures allow us to correct spacing.
 
-### Projects using Fira Code
+### Download &amp; Install
 
-- All [JetBrains products](https://www.jetbrains.com/)
-- [CodePen](https://codepen.io/)
-- [Blink Shell](http://www.blink.sh/)
-- [Klipse](http://app.klipse.tech/)
-- [IlyaBirman.net](http://ilyabirman.net/)
-- [EvilMartians.com](https://evilmartians.com/)
-- [Web Maker](https://webmakerapp.com/)
-- [FromScratch](https://fromscratch.rocks/)
-- [PEP20.org](https://pep20.org/)
+&lt;a href=&quot;https://github.com/tonsky/FiraCode/releases/download/6.2/Fira_Code_v6.2.zip&quot;&gt;&lt;img alt=&quot;Fira_Code_v6.2.zip - December 6, 2021 - 2.5 MB&quot; src=&quot;./extras/download.png&quot; width=&quot;520&quot; height=&quot;130&quot;&gt;&lt;/a&gt;
 
-### Alternatives
+Then:
 
-Other free monospaced fonts with ligatures:
+- [How to Install](https://github.com/tonsky/FiraCode/wiki)
+- [Troubleshooting](https://github.com/tonsky/FiraCode/wiki#troubleshooting)
+- [News &amp; Updates](https://twitter.com/FiraCode)
 
-- [Hasklig](https://github.com/i-tu/Hasklig)
-- [Monoid](http://larsenwork.com/monoid/)
-- [Fixedsys Excelsior](https://github.com/kika/fixedsys)
-- [Iosevka](https://be5invis.github.io/Iosevka/)
-- [DejaVu Sans Code](https://github.com/SSNikolaevich/DejaVuSansCode)
-- [Victor Mono](https://rubjo.github.io/victor-mono/)
-- [Cascadia Code](https://github.com/microsoft/cascadia-code)
-- [JetBrains Mono](https://github.com/JetBrains/JetBrainsMono)
+### Support
 
-Paid monospaced fonts with ligatures:
+&lt;a href=&quot;https://github.com/sponsors/tonsky&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Sponsor&quot; src=&quot;./extras/sponsor.png&quot;&gt;&lt;/a&gt;
 
-- [PragmataPro](http://www.fsd.it/fonts/pragmatapro.htm)
-- [Mono Lisa](https://monolisa.dev/)
+Fira Code is a personal, free-time project with no funding and a huge [feature request backlog](https://github.com/tonsky/FiraCode/issues). If you love it, consider supporting its development via [GitHub Sponsors](https://github.com/sponsors/tonsky) or [Patreon](https://patreon.com/tonsky). Any help counts!
 
-### Building Fira Code locally
+### What’s in the box?
 
-In case you want to alter FiraCode.glyphs and build OTF/TTF/WOFF files yourself, this is setup I use on macOS:
+Left: ligatures as rendered in Fira Code. Right: same character sequences without ligatures.
 
-```bash
-# install all required build tools
-./script/bootstrap
+&lt;img src=&quot;./extras/ligatures.png&quot; width=&quot;754&quot; height=&quot;1326&quot;&gt;
 
-# build the font files
-./script/build
+Fira Code comes with a huge variety of arrows. Even better: you can make them as long as you like and combine start/middle/end fragments however you want!
 
-# install OTFs to ~/Library/Fonts
-./script/install
-```
+&lt;img src=&quot;./extras/arrows.png&quot; width=&quot;754&quot; height=&quot;799&quot;&gt;
 
-### Credits
+Fira Code is not only about ligatures. Some fine-tuning is done for punctuation and frequent letter pairs.
 
-- Author: Nikita Prokopov [@nikitonsky](https://twitter.com/nikitonsky)
-- Based on: [Fira Mono](https://github.com/mozilla/Fira)
-- Inspired by: [Hasklig](https://github.com/i-tu/Hasklig)
+&lt;img src=&quot;./extras/typographics.png&quot; width=&quot;754&quot; height=&quot;649&quot;&gt;
+
+Fira Code comes with a few different character variants, so that everyone can choose what’s best for them. [How to enable](https://github.com/tonsky/FiraCode/wiki/How-to-enable-stylistic-sets)
+
+&lt;img src=&quot;./extras/character_variants.png&quot; width=&quot;754&quot; height=&quot;391&quot;
+
+...
 		</description>
 		<dependencies>
 			<dependency id="chocolatey-font-helpers.extension" version="0.0.2" />
 		</dependencies>
-
 	</metadata>
 	<files>
 		<!-- this section controls what actually gets packaged into the Chocolatey package -->
